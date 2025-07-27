@@ -28,8 +28,8 @@ export default function RootLayout({
       <header className="p-5 bg-gray-100">
           <h1 className="text-2xl font-bold mb-2">Test Level 1 FE</h1>
           <nav className="space-x-4">
-            <a href="/" style={{ marginRight: 10 }}>Home</a>
-            <a href="/message">Message</a>
+            <a href="/" className="text-gray-600 hover:underline">Home</a>
+            <a href="/message" className="text-gray-600 hover:underline">Message</a>
           </nav>
         </header>
 
